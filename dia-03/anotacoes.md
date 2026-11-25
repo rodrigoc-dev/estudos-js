@@ -8,4 +8,10 @@ a regra de cima pra baixo como o nome já diz, verifica as condições na ordem 
 o && é um operador lógico que checa se duas condições são verdadeiras, ou seja, do lado esquerdo e direto precisarm ser true para atingir a condição comparativa &&
 
 4.== x ===, com a explicação do “fiscal” que você entendeu hoje
-o == é um "fiscal" preguiçoso que olha dois valores e compara independente do tipo, ele converte um dos valores para se equiparar ao outro, como por exemplo 5 == "5" , ele converte o string "5" para número e diz que a condição é true, já o === é um "fiscal" mais rigoroso, que checa além do valor o tipo, ele iria enxergar que 5 é um número e "5" é uma string, ou seja, parecem o mesmo valor, mas são tipos diferentes, o uso do === evita erros no código 
+o == é um "fiscal" preguiçoso que olha dois valores e compara independente do tipo, ele converte um dos valores para se equiparar ao outro, como por exemplo 5 == "5" , ele converte o string "5" para número e diz que a condição é true, já o === é um "fiscal" mais rigoroso, que checa além do valor o tipo, ele iria enxergar que 5 é um número e "5" é uma string, ou seja, parecem o mesmo valor, mas são tipos diferentes, o uso do === evita erros no código
+
+5.O que é o || e a diferença pro &&
+o || é o operador "ou" que confere se pelo menos uma das sentenças é verdadeira, se pelo menos uma das condições for true, então o resultado vai ser true, ou seja, verdadeiro. Já o operador lógico && precisa todas as condições sejam verdadeiras, tanto da esquerda quanto da direita, se pelo menos uma das duas não atender a necessidade de &&, o resultado é false , ou seja, falso
+
+6.A lição do “golpe extra”: por que não precisa repetir a condição no else if
+o golpe extra foi tentar reduzir a linha de código no else if, pois não há necessidade de repetir o que a condição if já verificou anteriormente, por exemplo, se vi que o número já é menor que 200, não há necessidade de colocar novamente isso em questão
