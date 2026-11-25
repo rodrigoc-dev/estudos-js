@@ -15,3 +15,12 @@ o || é o operador "ou" que confere se pelo menos uma das sentenças é verdadei
 
 6.A lição do “golpe extra”: por que não precisa repetir a condição no else if
 o golpe extra foi tentar reduzir a linha de código no else if, pois não há necessidade de repetir o que a condição if já verificou anteriormente, por exemplo, se vi que o número já é menor que 200, não há necessidade de colocar novamente isso em questão
+
+7.As 3 partes do for
+o for é dividido em 3 partes separadas por ; e a primeira é o início (dá início à contagem, a segunda é a condição que verifica se a condição é verdadeira e a última é o passo, qual ação deve ser tomada ali) e vai se repetindo (loop)enquanto a condição for true
+
+8.O que é escopo (a lição do 11)
+escopo é o contexto que a variável se encontra, por exemplo, uma let ou const vale pra dentro daquele escopo ou contexto em que ela foi criada, se foi dentro de chaves ou parenteses, ela vale pra aquele bloco em si
+
+9.Por que a condição de filtro vai dentro do loop, e não na condição do for
+pois o for é mais pra contagem e o filtro só vai filtrando como diz o nome, se a gente for usar o filtro dentro do for, ele pode acabar encerrando o loop de vez quando a condição for false
